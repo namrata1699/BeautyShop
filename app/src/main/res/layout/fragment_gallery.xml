@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:layout_height="match_parent">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="160dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:text="Profile"
+        android:textColor="#654321"/>
+
+    <ImageView
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="180dp"
+        app:srcCompat="@drawable/finaluser" />
+
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="160dp"
+        >
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:fontFamily="cursive"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            android:text="Name : "
+                      />
+
+    <TextView
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        android:fontFamily="cursive"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:id="@+id/name_pro"
+        />
+
+    </LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="160dp"
+        >
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:fontFamily="cursive"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            android:text="Contact no : "
+            />
+
+
+        <TextView
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        android:fontFamily="cursive"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:id="@+id/contact_pro"
+        />
+
+    </LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="160dp"
+        >
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:fontFamily="cursive"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            android:text="Address : "
+            />
+
+
+        <TextView
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        android:fontFamily="cursive"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:id="@+id/address_pro"
+        />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="160dp"
+        >
+
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:fontFamily="cursive"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            android:text="EmailID : "
+            />
+
+
+        <TextView
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        android:fontFamily="cursive"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:id="@+id/email_pro"
+        />
+
+    </LinearLayout>
+
+
+</LinearLayout>

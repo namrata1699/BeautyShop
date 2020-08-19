@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".Login">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="205dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:textColor="#654321"
+        />
+
+
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:hint="E-mail Id"
+        android:textSize="15sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pwd"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:hint="Password"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:inputType="textPassword"/>
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:background="@drawable/mybutton"
+        android:padding="10dp"
+        android:text="Login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Or Want To Sign Up?"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#4E78A0"
+        android:fontFamily="cursive"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:id="@+id/signup_link"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Product Link"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#4E78A0"
+        android:fontFamily="cursive"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:id="@+id/AddProduct"
+        />
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DisplayFullProduct"
+    android:background="@drawable/back">
+
+
+
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="160dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:text="Product Details"
+        android:textColor="#654321"/>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_height="300dp"
+        android:layout_width="300dp"
+        android:layout_marginLeft="110dp"
+        android:id="@+id/img_final"/>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="160dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:id="@+id/name_final"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="160dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:id="@+id/price_final"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="160dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:id="@+id/brand_final"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="160dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:id="@+id/cat_final"
+        />
+
+
+    <RadioGroup
+        android:layout_marginLeft="160dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/modeofpayment"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cash On Delievery" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Online Payment" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_addtocart"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="160dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:background="@drawable/mybutton"
+        android:padding="10dp"
+        android:text="Make an Order" />
+
+
+</LinearLayout>

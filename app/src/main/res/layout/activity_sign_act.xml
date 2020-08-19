@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".sign_act">
+
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:textSize="30dp"
+        android:textColor="#654321"
+        android:textStyle="bold|italic"
+        android:fontFamily="cursive"
+        android:text="Register With Us" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:hint="Name"
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="10dp"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/user_con"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="10dp"
+        android:hint="Contact no" />
+
+    <EditText
+        android:id="@+id/user_emaild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="10dp"
+        android:hint="Email ID" />
+
+    <EditText
+        android:id="@+id/user_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="10dp"
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/user_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:hint="Address" />
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:background="@drawable/mybutton"
+        android:padding="10dp"
+        android:text="Save Details" />
+
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".admin_insert_product_page">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+     android:text="Enter Product Details Form"
+        android:layout_marginBottom="10dp"
+        android:textSize="30sp"/>
+
+
+    <Button
+        android:id="@+id/button_choose_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose File" />
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/edit_text_product_name"
+        android:hint="Enter Prodcut name"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/edit_text_product_price"
+        android:hint="Enter Product Price"/>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Select Brand : "
+            />
+
+     <Spinner android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/sp_product_brand"
+        android:hint="Product Brand"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+<!--    <EditText android:layout_height="wrap_content"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:id="@+id/edit_text_product_brand"-->
+<!--        android:hint="Enter Product Brand"/>-->
+
+    <ImageView android:layout_height="250dp"
+        android:layout_width="match_parent"
+        android:id="@+id/image_view1"
+        />
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/edit_text_product_category"
+        android:hint="Enter Product Category"/>
+
+    <ProgressBar android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/button_upload"
+        android:text="Upload"
+        />
+
+
+</LinearLayout>

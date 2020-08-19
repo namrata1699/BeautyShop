@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "340009236977",
+    "firebase_url": "https://fireeybasee.firebaseio.com",
+    "project_id": "fireeybasee",
+    "storage_bucket": "fireeybasee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340009236977:android:9ed14e891a17f5b28cac50",
+        "android_client_info": {
+          "package_name": "com.example.agraw.firebasetwo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340009236977-fnj8m0ks9omllskckbddi5g9hgvc8f2o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agraw.firebasetwo",
+            "certificate_hash": "934798a2f713cca903a07a018789c3183155194c"
+          }
+        },
+        {
+          "client_id": "340009236977-073qoskvpv4bq6i5s61l88lb62q6s18f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLbMZJVHZYgT6YWKxVgjY9ChSf38On-Pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340009236977-073qoskvpv4bq6i5s61l88lb62q6s18f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340009236977:android:691b563d88a16fde8cac50",
+        "android_client_info": {
+          "package_name": "com.example.agraw.fireeeybasee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340009236977-pcgihc8d7onbajeofkf2l5hps00mc7af.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agraw.fireeeybasee",
+            "certificate_hash": "934798a2f713cca903a07a018789c3183155194c"
+          }
+        },
+        {
+          "client_id": "340009236977-073qoskvpv4bq6i5s61l88lb62q6s18f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLbMZJVHZYgT6YWKxVgjY9ChSf38On-Pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340009236977-073qoskvpv4bq6i5s61l88lb62q6s18f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340009236977:android:fee6fb04c3cbc8428cac50",
+        "android_client_info": {
+          "package_name": "com.example.agraw.initaltestfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340009236977-nj87vn97htau7uu0b36ipa5bj02g3n3q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agraw.initaltestfirebase",
+            "certificate_hash": "934798a2f713cca903a07a018789c3183155194c"
+          }
+        },
+        {
+          "client_id": "340009236977-073qoskvpv4bq6i5s61l88lb62q6s18f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLbMZJVHZYgT6YWKxVgjY9ChSf38On-Pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340009236977-073qoskvpv4bq6i5s61l88lb62q6s18f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340009236977:android:917b2659797f90328cac50",
+        "android_client_info": {
+          "package_name": "com.example.beautyshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340009236977-l0ckqqtm60lheqiueus5ri5ov941i087.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.beautyshop",
+            "certificate_hash": "934798a2f713cca903a07a018789c3183155194c"
+          }
+        },
+        {
+          "client_id": "340009236977-073qoskvpv4bq6i5s61l88lb62q6s18f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLbMZJVHZYgT6YWKxVgjY9ChSf38On-Pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340009236977-073qoskvpv4bq6i5s61l88lb62q6s18f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
